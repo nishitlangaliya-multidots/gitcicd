@@ -1,0 +1,54 @@
+{
+  "trashAssetsBeforeRuns": true,
+  "env": {
+    "failSilently": false,
+    "wp_user": "a",
+    "wp_pass": "a",
+    "WP_USERNAME": "a",
+    "WP_PASSWORD": "a",
+    "hash": "undefined",
+    "cicd": "http://cicd.local/product/single/",
+    "site": {
+      "url": "http://cicd.local/"
+    },
+    "site1": {
+      "url": "http://cypresstests.devtest",
+      "path": "~/Sites/cypresstests.devtest",
+      "remote_connection": "https://anothercypresstest.devtest\n7bpxn3S6qihNEjgA4o6qlzj1MvcMUOkt9zHoEzqC"
+    },
+    "site2": {
+      "url": "http://testingsite.local",
+      "path": "~/Local\\ Sites/testingsite/app",
+      "remote_connection": "https://othertestingsite.local\n68hQT30jPr9d9x/IH+XATrW8q2e7ZkKZ+d19BqlO"
+    },
+    "plugins_to_migrate": [
+      "iThemes Sync",
+      "Google Analytics for WordPress by MonsterInsights",
+      "Hello Dolly"
+    ],
+    "themes_to_migrate": [
+      "Twenty Seventeen (active)"
+    ],
+    "billing": {
+      "billing_first_name": "nishit",
+      "billing_last_name": "soni",
+      "billing_address_1": "Bhavnagar",
+      "billing_address_2": "gayatrinagar",
+      "billing_city": "Bhavnagar",
+      "billing_postcode": "364001",
+      "billing_phone": "123345",
+      "billing_email": "jon@example.com"
+    }
+  },
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/reports/mochareports/assets",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "charts": true,
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "reportDir": "cypress/report/mochawesome-report"
+  }
+}
