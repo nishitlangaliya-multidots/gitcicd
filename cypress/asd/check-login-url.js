@@ -24,7 +24,7 @@ devsites.forEach(devsites => {
         // }).then((resp) => {
         //     console.log(resp)
         //    // expect(resp.status).to.eq(301);
-        
+        //check
         //test
         // });
     });
